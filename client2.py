@@ -13,7 +13,7 @@ import subprocess
 import sys
 import time
 
-HOST = '143.106.243.209'              # Endereco IP do Servidor
+HOST = 'x.x.x.x'              # Endereco IP do Servidor
 PORT = 5000            # Porta que o Servidor esta
 class start_server():
     def __init__(self):
@@ -23,8 +23,8 @@ class start_server():
 
 class autenticacao():
     def __init__(self):
-        self.user='info'
-        self.passwd='mnd'
+        self.user='xxx'
+        self.passwd='xxx'
     def auth(self):
         self.token=base64.encodestring('%s:%s' % (self.user,self.passwd))
         #ss.tcp.send('login')
