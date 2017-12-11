@@ -1,9 +1,14 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import sqlite3 as lite
-
+import os
+BD = 'manut.db'
 class principal():
+
     def __init__(self):
+        if not os.path.exists(BD):
+            print'Banco de dados não criado!!'
+            exit()
         self.banco = None
         try:
             self.banco = lite.connect('manut.db')
