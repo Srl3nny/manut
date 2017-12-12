@@ -9,10 +9,14 @@ Para usar altere as variáveis do I.P do servidor, crie a pasta onde ficará o s
 No meu caso foi:
 
 #mkdir /opt/manut
+
 #touch /opt/manut/script.sh
+
 #chmod 750 /opt/manut/script.sh /opt/manut/client.py
  
 Copiei o arquivo manut.sh na pasta /etc/init.d
+
 #chmod 750 /etc/init.d/manut.sh
+
 #update-rc.d manut.sh defaults
 
