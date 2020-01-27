@@ -10,9 +10,9 @@ No meu caso foi:
 
 #mkdir /opt/manut
 
-#touch /opt/manut/script.sh
+#touch /opt/manut/manut.sh
 
-#chmod 750 /opt/manut/script.sh /opt/manut/client.py
+#chmod 750 /opt/manut/manut.sh /opt/manut/client.py
  
 Copiei o arquivo manut.sh na pasta /etc/init.d
 
